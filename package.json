@@ -1,0 +1,35 @@
+{
+  "name": "react-native-authenticate",
+  "version": "1.0.0",
+  "description": "Authentication for Android and IOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.5.10",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.45.1",
+    "react-native-fingerprint-android": "^0.1.4",
+    "react-native-keychain": "^2.0.0-rc",
+    "react-native-touch-id": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spearmootz/react-native-authenticate.git"
+  },
+  "keywords": [
+    "react-native",
+    "rn",
+    "authentication",
+    "touch-id",
+    "touch",
+    "fingerprint"
+  ],
+  "author": "Ricardo Spear",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spearmootz/react-native-authenticate/issues"
+  },
+  "homepage": "https://github.com/spearmootz/react-native-authenticate#readme"
+}
