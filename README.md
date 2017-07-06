@@ -3,6 +3,8 @@ Authentication for Android and IOS
 
 expanding on `naoufal/react-native-touch-id` and `jariz/react-native-fingerprint-android` comes a complete cross platform solution for both android and IOS.
 
+This implements [the android design guidelines](https://material.google.com/patterns/fingerprint.html)
+
 #### Installation
 Install `naoufal/react-native-touch-id` and `jariz/react-native-fingerprint-android` separately
 Just run `npm i --save react-native-authenticate` and you are set!
