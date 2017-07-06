@@ -5,6 +5,8 @@ expanding on `naoufal/react-native-touch-id` and `jariz/react-native-fingerprint
 
 This implements [the android design guidelines](https://material.google.com/patterns/fingerprint.html)
 
+<img src="https://i.imgur.com/f5rSe6F.png" width="250">  
+
 #### Installation
 Install `naoufal/react-native-touch-id` and `jariz/react-native-fingerprint-android` separately
 Just run `npm i --save react-native-authenticate` and you are set!
@@ -25,7 +27,7 @@ export default SampleComponent extends Component {
         .then(() => console.log('is supported))
         .catch(() => console.log('not supported))
   }
-  
+
   render () {
      return (
         //whatever you want, and somewhere render <Authentication />
